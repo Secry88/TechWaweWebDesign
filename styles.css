@@ -57,7 +57,7 @@ header {
   min-width: 150px;
   padding: 10px;
   display: flex;
-  flex-direction: column; /* Строим элементы по вертикали */
+  flex-direction: column; /* элементы по вертикали */
 }
 
 .productBlock{
@@ -106,12 +106,12 @@ header {
   border-radius: 10px;
   display: flex;
   justify-content: center; /* по горизонтали */
-  align-items: center;     /* по вертикали (если нужно) */
+  align-items: center;     /* по вертикали  */
   
 }
 a {
-  color: white;          /* или любой нужный цвет */
-  text-decoration: none; /* убирает подчёркивание */
+  color: white;          
+  text-decoration: none; 
 }
 
 .product-images img {
@@ -156,7 +156,7 @@ li {
   margin-top: 30px;
 }
 .reviews .stars {
-  font-size: 1.5em;
+  font-size: 24px;
   color: gold;
 }
 .review {
